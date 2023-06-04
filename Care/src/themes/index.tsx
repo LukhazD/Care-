@@ -13,6 +13,9 @@ theme.typography.h2 = {
     [theme.breakpoints.up('sm')]:{
         fontSize:'42px'
     },
+    [theme.breakpoints.up('xs')]:{
+        fontSize:'32px'
+    },
 }
 theme.typography.h3 = {
     [theme.breakpoints.up('md')]:{
