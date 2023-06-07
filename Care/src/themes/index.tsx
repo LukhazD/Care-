@@ -28,13 +28,19 @@ theme.typography.h3 = {
         'Rubik',
     ].join(',')
 }
-theme.typography.body1 = {
+theme.typography.h4 = {
+    [theme.breakpoints.up('lg')]:{
+        fontSize:'42px',
+        fontWeight:'400'
+    },
     [theme.breakpoints.up('md')]:{
-        fontSize:'28px',
+        fontSize:'200px',
         fontWeight:'400'
     },
     [theme.breakpoints.up('sm')]:{
-        fontSize:'16px'
+        fontSize:'26px',
+        fontWeight:'500'
+
     },
     fontFamily: [
             'Rubik',
@@ -42,13 +48,13 @@ theme.typography.body1 = {
 }
 
 theme.typography.body2 = {
-    [theme.breakpoints.up('md')]:{
-        fontSize:'22px',
+    [theme.breakpoints.up('lg')]:{
+        fontSize:'40px',
         fontWeight:'400'
         
     },
     [theme.breakpoints.up('sm')]:{
-        fontSize:'16px'
+        fontSize:'20px'
     },
     fontFamily: [
         'Rubik',

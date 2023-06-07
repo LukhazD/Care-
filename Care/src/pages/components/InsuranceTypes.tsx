@@ -1,19 +1,41 @@
 import InsuranceItems from "./InsuranceItems"
 import {PawIcon, CarIcon, BusinessIcon, HealthIcon, } from './Icons'
-import { Box } from "@mui/material"
+import { Stack, Typography} from "@mui/material"
 
 export default function InsuranceTypes(){
     const insuranceList=[
-        <PawIcon/>,
-        <CarIcon/>,
-        <BusinessIcon/>,
-        <HealthIcon/>,
+        {
+            element:<PawIcon/>,
+            info:'Pets'
+        },
+        {
+            element:<CarIcon/>,
+            info:'Vehicles'
+        },
+        {
+            element:<BusinessIcon/>,
+            info:'Business'
+        },
+        {
+            element:<HealthIcon/>,
+            info:'Health'
+        },
     ]
     return(
         <>
-            <Box gap={2.5} sx={{marginY:'3em',display:'flex', width:'100%', justifyContent:'center'}}>
+        <Stack sx={{alignItems:'center', width:'100%', gap:3}}>
+
+            <Typography variant='h2'>
+                        Our services offer
+            </Typography>
+            <Stack gap={2.5} sx={{
+                flexWrap:'wrap', 
+                flexDirection:'row',
+                }}>
+                    
                 <InsuranceItems items={insuranceList}/>
-            </Box>
+            </Stack>
+        </Stack>
         </>
     )
 }
