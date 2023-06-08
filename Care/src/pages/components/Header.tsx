@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import headerPicture from '../../assets/images/headerPicture.png'
 import careLogo from '../../assets/images/careLogo.png'
 import AnimatedTitle from "./AnimatedTitle";
@@ -8,7 +8,7 @@ export default function Header(){
 
     return(
         <>
-            <Box sx={{paddingY:'2em'}}>
+            <Box>
                 <Box sx={{width:'100%', height:'52px', display:'flex', marginY:'1em', justifyContent:'center'}}>
                     <Box 
                     component='img' 

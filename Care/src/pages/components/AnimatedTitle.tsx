@@ -4,7 +4,7 @@ export default function AnimatedTitle(){
     return(
     <>
         <Box sx={{
-            height:{md:'20em', sm:'20em'}, 
+            height:{md:'20em', sm:'13em'}, 
             width:{md:'60em', sm:'100%', xs:'100%'}, 
             paddingX:'3em', 
             marginY:'1.5em',
