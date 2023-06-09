@@ -6,23 +6,26 @@ theme.typography.h2 = {
     fontFamily: [
         'Rubik',
     ].join(','),
-    [theme.breakpoints.up('md')]:{
-        fontSize:'92px',
+    [theme.breakpoints.down('lg')]:{
+        fontSize:'72px',
         fontWeight:'500'
     },
-    [theme.breakpoints.up('sm')]:{
-        fontSize:'42px'
+    [theme.breakpoints.up('md')]:{
+        fontSize:'72px'
     },
-    [theme.breakpoints.up('xs')]:{
+    [theme.breakpoints.down('sm')]:{
         fontSize:'32px'
-    },
+    }
 }
 theme.typography.h3 = {
-    [theme.breakpoints.up('md')]:{
+    [theme.breakpoints.down('md')]:{
         fontSize:'42px'
     },
-    [theme.breakpoints.up('sm')]:{
-        fontSize:'32px'
+    [theme.breakpoints.up('md')]:{
+        fontSize:'52px'
+    },
+    [theme.breakpoints.down('sm')]:{
+        fontSize:'26px'
     },
     fontFamily: [
         'Rubik',
