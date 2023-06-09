@@ -3,9 +3,9 @@ import { Typography, Stack } from "@mui/material";
 export default function Description(){
     return(
     <>
-    <Stack>
+    <Stack sx={{paddingX:'1em'}}>
 
-        <Typography variant='h2'>
+        <Typography variant='h3'>
         Reasons to get an insurance
         </Typography>
         <Typography variant='body2' sx={{width:'fit-content', maxWidth:'16em'}}>

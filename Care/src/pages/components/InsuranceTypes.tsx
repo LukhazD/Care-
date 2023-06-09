@@ -23,7 +23,7 @@ export default function InsuranceTypes(){
     ]
     return(
         <>
-        <Stack sx={{alignItems:'center', width:'100%', gap:3}}>
+        <Stack sx={{alignItems:'center', width:'100%', justifyContent:'center', gap:3}}>
 
             <Typography variant='h2'>
                         Our services offer
@@ -31,6 +31,8 @@ export default function InsuranceTypes(){
             <Stack gap={2.5} sx={{
                 flexWrap:'wrap', 
                 flexDirection:'row',
+                width:'100%',
+                justifyContent:'center'
                 }}>
                     
                 <InsuranceItems items={insuranceList}/>

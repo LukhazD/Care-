@@ -13,7 +13,7 @@ export default function AnimatedTitle(){
             zIndex:'2',
             justifyContent:{xs:'center', sm:'center', md:'unset'},
             alignItems:{md:'center', sm:'center', xs:'center'}}}>
-                <Typography variant="h2" sx={{zIndex:'1', width:{md:'100%', sm:'fit-content', xs:'5.5em'}, color:'#2E1E3C', fontSize:{md:'72px'}}}>
+                <Typography variant="h2" sx={{zIndex:'1', width:{md:'100%', sm:'fit-content', xs:'5.5em'}, color:'#2E1E3C'}}>
                     Keep them Something
                 </Typography>
         </Box>

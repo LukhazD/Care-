@@ -6,6 +6,7 @@ import PromoSection from "./components/PromoSection";
 import InsuranceTypes from "./components/InsuranceTypes";
 import FaqSection from "./components/FaqSection";
 import DescriptionSection from "./components/DescriptionSection";
+import ReviewsSection from "./components/ReviewsSection";
 
 export default function Landing(){
     return(
@@ -17,6 +18,7 @@ export default function Landing(){
                     <InsuranceTypes/>
                     <FaqSection/>
                     <DescriptionSection/>
+                    <ReviewsSection/>
                 </Stack>
             </ThemeProvider>
         </>

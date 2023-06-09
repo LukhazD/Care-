@@ -29,8 +29,8 @@ export default function FaqSection(){
                 gap:14, 
                 flexDirection:'row'}}>
                 <ReferenceImage image={couple}/>
-                <Stack sx={{width:'fit-content', gap:1}}>
-                    <Typography variant='h2'>
+                <Stack sx={{paddingX:{xs:'1em'},width:'fit-content', gap:1}}>
+                    <Typography variant='h3' sx={{display:{md:'block', xs:'flex'}, justifyContent:'center'}}>
                         Frequent questions
                     </Typography>
                     <FaqItems questions={FAQ}/>

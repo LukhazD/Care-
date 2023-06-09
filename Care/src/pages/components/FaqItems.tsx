@@ -25,6 +25,7 @@ export default function FaqItems(props:Iprops){
                 <>
                 <Box 
                 onClick={() => {toggleShowInfo(index)}} 
+                key={index}
                 sx={{
                     border:'solid 6px #4B2E6D', 
                     borderRadius:'6px'}}>

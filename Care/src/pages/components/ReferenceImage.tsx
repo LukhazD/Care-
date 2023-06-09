@@ -9,7 +9,7 @@ export default function ReferenceImage(props:Iprops){
 
     return(
         <>
-        <Stack sx={{display:{ sm:'flex',xs:'none'}}}>
+        <Stack sx={{paddingX:'1em',display:{md:'flex', sm:'none',xs:'none'}}}>
 
         <motion.div
         animate={{
