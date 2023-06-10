@@ -1,17 +1,15 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 export default function SalesButton(){
     return(
-    <>        <Button sx={{
-            color:'#FFFFFF',
-            '&:hover':{
-                color:"#2E1E3C"
-            }, 
+    <>        
+        <Button 
+            variant='contained' 
+            sx={{
             backgroundColor:'#2E1E3C', 
-            paddingY:'1em', 
-            paddingX:'3em',
-            borderRadius:'6px', '&:focus':{backgroundColor:'#2E1E3C'}}}>
-            <Typography>
+             '&:focus':{backgroundColor:'#2E1E3C'}}}>
+            <Typography sx={{paddingY:'0.5em', 
+            paddingX:'1.5em',}}>
                 Contact sales!
             </Typography>
         </Button>

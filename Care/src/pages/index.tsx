@@ -7,6 +7,7 @@ import InsuranceTypes from "./components/InsuranceTypes";
 import FaqSection from "./components/FaqSection";
 import DescriptionSection from "./components/DescriptionSection";
 import ReviewsSection from "./components/ReviewsSection";
+import Footer from "./components/Footer";
 
 export default function Landing(){
     return(
@@ -19,6 +20,7 @@ export default function Landing(){
                     <FaqSection/>
                     <DescriptionSection/>
                     <ReviewsSection/>
+                <Footer/>
                 </Stack>
             </ThemeProvider>
         </>

@@ -5,8 +5,8 @@ export default function AnimatedTitle(){
     <>
         <Box sx={{
             height:{md:'20em', sm:'13em'}, 
-            width:{md:'60em', sm:'100%', xs:'100%'}, 
-            paddingX:'3em', 
+            width:'100%', 
+            paddingX:'1.5em', 
             marginY:'1.5em',
             position:{md:'absolute', sm:'block'},
             display:'flex',
