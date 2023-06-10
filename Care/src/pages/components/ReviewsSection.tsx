@@ -18,7 +18,11 @@ export default function ReviewsSection(){
                     <Typography variant='h2' sx={{color:'#72B043'}}>
                         trustpilot
                     </Typography>
-                <Button variant='contained' sx={{backgroundColor:'#72B043', '&:focus':{backgroundColor:'#72B043'}}}>
+                <Button 
+                variant='contained' 
+                sx={{
+                    backgroundColor:'#72B043', 
+                    '&:focus':{backgroundColor:'#72B043'}}}>
                     <Typography sx={{
                         paddingY:'0.5em', 
                         paddingX:'1.5em',}}>

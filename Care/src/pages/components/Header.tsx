@@ -9,7 +9,12 @@ export default function Header(){
     return(
         <>
             <Box>
-                <Box sx={{width:'100%', height:'52px', display:'flex', marginY:'1em', justifyContent:'center'}}>
+                <Box sx={{
+                    width:'100%', 
+                    height:'52px',
+                    display:'flex', 
+                    marginY:'1em', 
+                    justifyContent:'center'}}>
                     <Box 
                     component='img' 
                     src={careLogo} 
